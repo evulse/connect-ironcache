@@ -1,0 +1,36 @@
+{
+    "name": "connect-ironcache",
+    "version": "0.1.0",
+    "description": "IronCache session store for Connect",
+    "main": "index.js",
+    "author": "Mike Angell <mike@evulse.com>",
+    "keywords": [
+        "ironio",
+        "ironcache",
+        "express",
+        "connect",
+        "nodejs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/evulse/connect-ironcache.git"
+    },
+    "bugs": {
+        "url": "http://github.com/evulse/connect-ironcache/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/evulse/connect-ironcache/raw/master/LICENSE"
+        }
+    ],
+    "readmeFilename": "README.md",
+    "dependencies": {
+        "node-ironio": "*"
+    },
+    "devDependencies": {
+        "should": "~1.2.1",
+        "nock": "~0.14.2",
+        "mocha": "~1.7.4"
+    }
+}
